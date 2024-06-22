@@ -1,0 +1,182 @@
+.footer{
+    display: grid;
+
+    &__top{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+
+        &__about{
+            display: flex;
+            gap: 40%;
+            font-size: 20px;
+            padding: 40px 0px;
+            justify-content: center;
+
+            li a{
+                color: #56585E;
+                padding: 10px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                align-items: center;
+
+                &:hover{
+                    background-color: rgba(255, 255, 0, 0.574);
+                    color: blue;
+                    padding: 10px;
+                    transition: 0.5s;
+                }
+            }
+            
+            &__left{
+                display: grid;
+                gap: 20px;
+            }
+    
+            &__right{
+                display: grid;
+                gap: 20px;
+            }
+            
+
+           
+        }
+        
+       
+
+        &__info{
+
+            &__tell{
+                display: grid;
+                gap: 40px;
+                
+                li{
+                    display: flex;
+                    gap: 100px;
+                    justify-content: space-around;
+                    color: #56585E;
+                    border-bottom: 1px solid #56585E;
+                    padding-bottom: 20px;
+                    a{
+                        display: flex;
+                        font-size: 25px;
+                        gap: 78px;
+                        align-items: center;
+
+                        p{
+                            color: #56585E;
+                        }
+
+                        i{
+                            color: #56585E;
+                        }
+                    }
+
+                    
+                }
+
+            }
+            
+        }
+    }
+
+    &__bottom{
+        padding: 40px 0px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        // justify-content: end;
+
+        &__content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 23px 0px;
+            text-align:  center;
+
+            a{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 30px;
+                background-color: #56585E;
+                padding: 10px;
+                width: 100%;
+                justify-content: center;
+                border-radius: 30px;
+                text-align: center;
+
+                p{
+                    color: white;
+                }
+
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (min-width:768px){
+    .footer{
+        align-items: center;
+        gap: 20px;
+        &__top{
+            gap: 20px;
+            justify-content: center;
+        }
+
+
+        &__bottom{
+            &__content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                padding: 23px 0px;
+                text-align:  center;
+    
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    justify-content: center;
+                    font-size: 30px;
+                    background-color: #56585E;
+                    padding: 10px;
+                    width: 80%;
+
+                }
+            }    
+        }
+    }
+}
+
+@media (min-width:1200px){
+    .footer{
+        &__top{
+            &__about{
+                padding-right: 170px;
+            }
+        }
+        &__bottom{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: end;
+
+            &__content{
+                display: flex;
+                width: 23%;
+                text-align: center;
+                align-items: center;
+                
+                a{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
