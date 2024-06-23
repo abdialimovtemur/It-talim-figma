@@ -23,7 +23,7 @@
                 &:hover{
                     background-color: rgba(255, 255, 0, 0.574);
                     color: blue;
-                    padding: 10px;
+                    padding: 5px;
                     transition: 0.5s;
                 }
             }
@@ -60,7 +60,7 @@
                     a{
                         display: flex;
                         font-size: 25px;
-                        gap: 78px;
+                        gap: 7px;
                         align-items: center;
 
                         p{
@@ -126,6 +126,33 @@
         &__top{
             gap: 20px;
             justify-content: center;
+
+            &__info{
+
+                &__tell{
+                    
+                    li{
+                        a{
+                            display: flex;
+                            font-size: 25px;
+                            gap: 25px;
+                            align-items: center;
+    
+                            p{
+                                color: #56585E;
+                            }
+    
+                            i{
+                                color: #56585E;
+                            }
+                        }
+    
+                        
+                    }
+    
+                }
+                
+            }
         }
 
 
@@ -160,6 +187,19 @@
             &__about{
                 padding-right: 170px;
             }
+
+            &__info{
+                &__tell{
+                      li{
+                        a{
+                            display: flex;
+                            font-size: 25px;
+                            gap: 120px;
+                            align-items: center;
+                        }              
+                    }
+                }    
+            }
         }
         &__bottom{
             display: flex;
@@ -179,4 +219,5 @@
             }
         }
     }
+
 }

@@ -65,6 +65,30 @@ a:hover{
     max-width: 1440px;
 }
 
+.imkon-talim__info{
+    border: none;
+
+   .imkon-talim__img{
+    width: 30%;
+    &__img{
+        width: 40%;
+    }
+   }
+
+}
+
+.container2{
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.bg-lvl{
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 30px;
+}
+
 .df{
     display: flex;
     justify-content: space-between;

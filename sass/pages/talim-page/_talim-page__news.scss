@@ -1,0 +1,529 @@
+.maqsad{
+    border-top: 2px solid #CCCCCC;
+    &__logo{
+        display: flex;
+        gap: 10px;
+    }
+    &__box{
+        margin: 0px 0px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__title{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__bosh{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;  */
+      
+    }
+    &__box-itms{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__box__itms__img{
+        width: 100%;
+        padding: 25px 25px;
+        border-radius: 10px;
+        border: 2px solid #CCCCCC;
+        img{
+            width: 100%;
+       }
+    }
+    &__texts{
+        padding: 10px 0px ;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid;
+    }
+    &__dumaloq{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 120px;
+        height: 25px;
+        color: #184AFB;
+        border-radius: 40px;
+        border:2px solid #CCCCCC;
+    }
+}
+.talim{
+    &__blog{
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 1fr  ;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0px 0px 50px;
+    }
+    &__box__itms{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid #CCCC; 
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+    &__itms__titl{
+        font-family: "Michroma", sans-serif;
+        color: #2E3038;
+    }
+    &__itms__title{
+        color: #2e30388f;
+    }
+    &__itms__disc{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #184AFB;
+    }
+
+}
+.imkon{
+   &__blog{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto;
+   }
+   &__title{
+    color: #2e303884;
+   }
+   &__bolg__itms{
+    padding: 10px 10px;
+    border-bottom: 2px solid 
+    #D9D9D9;
+   }
+}
+
+.berilgan{
+    margin: 0px 0px 60px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    &___box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 20px;
+        background-color: 
+        #F5F5F5;
+        border-radius: 10px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    &__title{
+        color: #56585E;
+    }
+   }
+   .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &__box{
+        border: 2px solid #CCCC;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+    }
+    &__box__text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__title{
+        color: #2E3038;
+        font-family: "Michroma", sans-serif;
+    }
+    &__dics{
+        color: 
+        #828388;
+    }
+    &__btn{
+        border: 2px solid #CCCCCC;
+        padding: 8px 10px;
+        border-radius:50px;
+        background-color: inherit;
+        color: #184AFB;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+   }
+   .foydalanish{
+    margin: 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &-bekraunt{
+        background-image: url("../imgs/bkg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        display: flex;
+        width: 100%;
+        height: 250px;
+        padding: 50px 0px;
+        justify-content: end;  
+    }
+    &__title{
+        width: 200px;
+        color: #184AFB;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__text__itms{
+        border: 2px solid #CCCCCC;
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+    &__info{
+        color: #56585E;
+        font-family: "Michroma", sans-serif;
+        margin: 0px 0px 70px;
+    }
+    &__btn{
+        width: 120px;
+
+        height: 35px;
+        border-radius: 25px;
+        background-color: #F5F5F5;
+        color: #184AFB;
+        border: none;
+        margin: 30px 8px 0px;
+    }
+  }
+  .xamkorlar{
+    &__title{
+        color: #828388;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__itms{
+        width: 100%    ;
+        padding: 30px 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+        border:2px solid #CCCCCC     ;
+        /* border-bottom: 2px solid #CCCCCC;
+        border-top: 2px solid #CCCCCC;
+        border-right: 2px solid #CCCCCC; */
+        img{
+            width: 90%;
+        }
+    }
+  }
+  .yangilik{
+     display: grid;
+     grid-template-columns: auto;
+     gap: 25px;
+     margin: 0px 0px 50px;
+     &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 2px solid #CCCCCC;
+     }
+     &__img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        &__text{
+           display: flex; 
+        }
+     }
+  }
+  .uyushma{
+    &__btn{
+        padding: 10px;
+        border-radius: 20px;
+        background-color: inherit;
+        border: 2px solid #CCCCCC;
+        color: #184AFB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px ;
+        font-size: 17px;
+    }
+    &__btn2{
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #184AFB;
+        border: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px ;
+        font-size: 17px;
+    }
+    &__blog{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+    }
+    &__blog.nr{ 
+        margin: 0px 0px 50px;
+    }
+    &__itms{
+        width: 100%;
+    
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        img{
+            width: 80%;
+        }
+    }
+    &__imgss{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+    &__text{
+        padding: 10px 10px;
+        border-left: 2px solid #CCCCCC;
+    }
+    &__blog__img{
+        background-image: url("../imgs/uyushmapas.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 420px;
+        border-radius: 10px;
+        
+    }
+    &__blog__text{
+        background-color: #F5F5F5;
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           border-radius: 10px;
+           padding: 10px 20px;
+    }
+    &__hom___pags{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+  }
+
+
+  @media(min-width:768px){
+    .maqsad{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        &__box{
+            flex-direction: row;
+        }
+        &__logo{
+            width: 20%;
+            height: 10%;
+            margin-top: -0px;
+        }
+        &__bosh{
+            flex-direction: row;
+            gap: 190px;
+          
+        }
+            .talim__blog{
+                grid-template-columns: auto auto;
+            }
+            .imkon__blog{
+                display: grid;
+                gap: 20px;
+                grid-template-columns: auto auto;
+               }
+             .berilgan{
+                grid-template-columns: auto auto;
+                &__text{
+                    flex-direction: row;
+                    align-items: center;
+                }
+                
+             }
+             .pages{
+                &__box{
+             flex-direction: row;
+                } 
+                &__btn{
+                    margin: 20px 0px;
+                    width: 150px;
+                    font-size: 17px;
+                }
+             }
+             .foydalanish{
+                flex-direction: row;
+                &__bekraunt{
+                    width: 100%;
+                    height: 370px;
+                    padding: 50px 20px;;  
+                }
+                &__title{
+                    width: 200px;
+                    
+                }
+                &__info{
+                    color: #56585E;
+                    font-family: "Michroma", sans-serif;
+                    margin: 0px 0px 35px;
+                }
+                &__text{
+                    width: 40%;
+                }
+                &__text__itms{
+                    height: 175px;
+                }
+              }
+              .xamkorlar{
+                &__box{
+                    margin: 30px 0px;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+              }
+              .yangilik{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 25px;
+              }
+            .uyushma{
+                &-blog{
+                
+                    grid-template-columns: auto auto auto ;
+                    margin: 0px 0px 50px;
+                }
+                &__blog.nr{
+                    margin: 0px 0px 60px;
+                    grid-template-columns: 2fr 3fr ;
+                }
+
+                &__btn{
+                    width: 150px;
+                    height: 40px;
+                    margin: 10px 0px 0px;
+                }
+                &__btn2{
+                    width: 150px;
+                    height: 40px;
+                    margin: 10px 0px 0px;
+                }
+                &__hom-pags{
+                    flex-direction: row;
+                    align-items: center;
+                }
+                &__blog__img{
+                   
+                    width: 100%;
+                    height: 420px;
+                    
+                }
+                &__blog__text{
+                    padding: 70px 20px 20px;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 420px;
+             }
+            }
+       
+    }
+   
+}
+@media(min-width:992px){
+    .maqsad{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &__box{
+            flex-direction: row;
+        }
+        &__logo{
+            width: 20%;
+            height: 10%;
+            margin-top: -0px;
+        }
+        &__box__itms{
+            flex-direction: row;
+        }
+        &__box__itms__img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+        }
+        &box__itms__text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+       &-text_title{
+        font-size: 17px;
+       }
+        &__cards{
+          margin: 20px 0px;
+            
+        }
+        &__title{
+            font-size: 40px;
+        }
+        .talim-blog{
+            grid-template-columns: auto  auto auto;
+        }
+        .foydalanish{
+            &-bekraunt{
+             
+                height: 480px;
+                padding: 50px 50px;;  
+            }
+            &-title{
+                width: 250px;
+                color: #184AFB;
+                font-size: 20px;
+            }
+            &-text-itms{
+                height: 231px;
+            }
+        
+          }
+          .yangilik{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 25px;
+          }
+       
+    }
+    
+}

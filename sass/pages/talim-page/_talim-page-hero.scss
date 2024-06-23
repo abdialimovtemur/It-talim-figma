@@ -1,0 +1,110 @@
+.talim-page__hero{
+    display: grid;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-radius: 20px;
+      // grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        font-size: 17px;
+        align-items: center;
+
+        &__title{
+
+        }
+
+        &__button{
+            width: 40%;
+            padding: 8px 0px;
+            align-items: center;
+            background-color: #184AFB;
+            border: none;
+            border-radius: 20px;
+            color: white;
+        }
+
+        &__discription{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+    &__img{
+        width: 100%;
+        padding: 20px 0px;
+
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width:768px){
+    .talim-page__hero{
+          // grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+        &__info{
+            font-size: 30px;
+    
+            &__button{
+                width:20%;
+                padding: 6px 0px;
+                align-items: center;
+                background-color: #184AFB;
+                border: none;
+                border-radius: 20px;
+                font-size: 25px;
+                color: white;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px){
+    .talim-page__hero{
+        padding: 20px 70px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+        &__info{
+            font-size: 30px;
+            text-align: start;
+            align-items: start;
+            gap: 20px;
+            
+    
+            &__button{
+                width: 30%;
+                padding: 6px 0px;
+                align-items: center;
+                background-color: #184AFB;
+                border: none;
+                border-radius: 20px;
+                font-size: 25px;
+                color: white;
+                margin-top: 90px;
+            }
+        }
+
+
+        &__img{
+            padding-left: 40px;
+            width: 90%;
+            display: grid;
+            align-items: end;
+
+
+
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
