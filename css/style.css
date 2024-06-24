@@ -288,7 +288,7 @@ a:hover {
   .footer__top__info__tell li a {
     display: flex;
     font-size: 25px;
-    gap: 120px;
+    gap: 70px;
     align-items: center;
   }
   .footer__bottom {
